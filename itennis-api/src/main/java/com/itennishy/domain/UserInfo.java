@@ -1,9 +1,11 @@
 package com.itennishy.domain;
 
-//import lombok.Data;
+import lombok.Data;
 
-//@Data
-public class UserInfo {
+import java.io.Serializable;
+
+@Data
+public class UserInfo implements Serializable {
 
     private int id;
     private String username;
