@@ -1,0 +1,25 @@
+server:
+  port: 19090
+
+spring:
+  application:
+    name: dubbo-provider-app
+
+
+dubbo:
+  scan:
+    base-packages: com.itennishy.service.impl
+
+  application:
+    id: dubbo-provider
+    name: dubbo-provider
+
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 29090
+    status: server
+
+  registry:
+    id: zk-reg
+    address: zookeeper://127.0.0.1:2181

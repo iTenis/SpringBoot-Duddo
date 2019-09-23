@@ -2,8 +2,7 @@ package com.itennishy.service;
 
 import com.itennishy.domain.UserInfo;
 
-public interface UserService {
-
-    UserInfo GetUser();
+public interface UserInfoService {
+    String GetUserByName(String name);
 
 }

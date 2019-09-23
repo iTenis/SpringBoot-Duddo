@@ -1,8 +1,8 @@
 package com.itennishy.domain;
 
-import lombok.Data;
+//import lombok.Data;
 
-@Data
+//@Data
 public class UserInfo {
 
     private int id;

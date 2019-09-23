@@ -12,4 +12,11 @@
     <artifactId>itennis-consumer</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.itennishy.springboot.dubbo</groupId>
+            <artifactId>itennis-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
